@@ -4,6 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #13131a;
+  margin: 0;
+  padding: 0;
+}
+
 .linear-gradient {
   background: linear-gradient(
     179.14deg,
